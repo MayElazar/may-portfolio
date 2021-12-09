@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/may-portfolio/static/css/main.3f829b02.chunk.css",
+    "main.js": "/may-portfolio/static/js/main.6565be17.chunk.js",
+    "main.js.map": "/may-portfolio/static/js/main.6565be17.chunk.js.map",
+    "runtime-main.js": "/may-portfolio/static/js/runtime-main.890f1ece.js",
+    "runtime-main.js.map": "/may-portfolio/static/js/runtime-main.890f1ece.js.map",
+    "static/js/2.13e3e975.chunk.js": "/may-portfolio/static/js/2.13e3e975.chunk.js",
+    "static/js/2.13e3e975.chunk.js.map": "/may-portfolio/static/js/2.13e3e975.chunk.js.map",
+    "static/js/3.e952e57c.chunk.js": "/may-portfolio/static/js/3.e952e57c.chunk.js",
+    "static/js/3.e952e57c.chunk.js.map": "/may-portfolio/static/js/3.e952e57c.chunk.js.map",
+    "index.html": "/may-portfolio/index.html",
+    "static/css/main.3f829b02.chunk.css.map": "/may-portfolio/static/css/main.3f829b02.chunk.css.map",
+    "static/js/2.13e3e975.chunk.js.LICENSE.txt": "/may-portfolio/static/js/2.13e3e975.chunk.js.LICENSE.txt",
+    "static/media/MeCharecter.83542d8d.svg": "/may-portfolio/static/media/MeCharecter.83542d8d.svg",
+    "static/media/profilePic.34e5f89f.jpg": "/may-portfolio/static/media/profilePic.34e5f89f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.890f1ece.js",
+    "static/js/2.13e3e975.chunk.js",
+    "static/css/main.3f829b02.chunk.css",
+    "static/js/main.6565be17.chunk.js"
+  ]
+}
