@@ -28,7 +28,7 @@ function Contectme() {
           </div>
           <div>
             <a
-              href="www.linkedin.com/in/may-elazar"
+              href="https://www.linkedin.com/in/may-elazar/"
               target="_blank"
               rel="noreferrer"
             >

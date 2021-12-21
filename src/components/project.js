@@ -6,8 +6,8 @@ function Project(props) {
   const link = props.deploy ? props.demoLink : "";
   return (
     <div className={props.bg ? "bg-white-whiteGray" : "bg-white-whitey"}>
-      <div className="flex p-4 mb-2 m-auto  md:w-10/12 items-center">
-        <div className="hidden md:flex-1 md:flex  sm:flex shadow-xl mr-8">
+      <div className="flex flex-col md:flex-row p-4 mb-2 m-auto  md:w-10/12 items-center">
+        <div className=" md:flex-1 md:flex  sm:flex shadow-xl mr-8">
           <img src={props.img} alt="project_picture" />
         </div>
         <div className="md:w-3/5 flex flex-col flex-end justify-between">

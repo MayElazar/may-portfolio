@@ -27,9 +27,12 @@ function Header() {
           </motion.p>
           <p>
             I believe that the web is just getting bigger and it's the primary
-            way to connect to users all over the word.
+            way to connect to users all over the world.
             <br /> Because of that I believe every product needs a well design
             and functional website.
+            <br />I am a self-taught developer and a problem solver, I care a
+            lot about UX and UI.
+            <br /> Looking for a new oppertonty. Do you have one?
           </p>
 
           <div className="flex pt-4 pb-4">
@@ -47,7 +50,7 @@ function Header() {
                   transition: { duration: 0.5 },
                 }}
               >
-                Let's meet for coffe!
+                Let's meet for coffee!
               </motion.button>
             </a>
             <a
