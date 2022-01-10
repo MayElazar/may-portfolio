@@ -22,7 +22,7 @@ function Contectme() {
           data-netlify-honeypot="bot-field"
           onSubmit="submit"
           netlify
-          data-netlify-recaptcha="true"
+          //data-netlify-recaptcha="true"
         >
           <input type="hidden" name="form-name" value="contact" />
           <label className="flex mb-4">
