@@ -21,7 +21,7 @@ function Contectme() {
           data-netlify-honeypot="bot-field"
           onSubmit="submit"
           netlify
-          action="POST"
+         
           data-netlify-recaptcha="true"
         >
           <label className="flex mb-4">
