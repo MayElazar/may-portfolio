@@ -28,7 +28,7 @@ function Nav() {
               className={
                 "md:hidden " +
                 (navbarOpen
-                  ? " h-screen w-1/4 absolute right-0 pr-3 bg-white-whitey shadow-xl"
+                  ? " h-screen w-1/2 z-50 absolute right-0 pr-3 bg-white-whitey shadow-xl"
                   : "")
               }
             >

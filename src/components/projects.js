@@ -24,6 +24,7 @@ function Projects(props) {
           bg={projData.bg}
           aboutProj={projData.aboutProj}
           deploy={projData.deploy}
+          techLang={projData.techLang}
         />
       ))}
       {/*data.map((song) => (

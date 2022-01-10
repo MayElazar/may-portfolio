@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import MyImg from "../img/profilePic.jpg";
-function AboutMe() {
+function AboutMe({ iconsImg }) {
   return (
     <div className="bg-white-whiteGray ">
       <div className="flex flex-col md:flex-row md:space-x-32 xl:space-x-52 justify-evenly p-6 w-4/5 m-auto items-center">
@@ -25,13 +25,30 @@ function AboutMe() {
               new worlds, whether it's the UX world or the programming aspect. I
               just fell in love with the concept that I can build something from
               scratch. From the idea to the finished product. I discovered a
-              whole world that never ends, you can always learn more and
-              develop.
+              whole world that never ends.
               <br />
-              These days I am looking for my first job. Do you have any
-              suggestions?
+              These days I am looking for my first job.
+              <br />
+              Do you have any suggestions?
             </p>
           </div>
+
+          <div>
+            <h3 className="mb-3">Skills:</h3>
+            <ul className="flex space-x-4">
+              {iconsImg.iconsImg &&
+                iconsImg.iconsImg.map((icon) => (
+                  <li key={icon}>
+                    <img
+                      src={icon}
+                      alt="Technolagy I used icon"
+                      className="w-10"
+                    />
+                  </li>
+                ))}
+            </ul>
+          </div>
+
           <Link to="/">
             <motion.button
               className=" bg-pink-pinkGlow rounded-md text-white-whitey mr-4 p-2"

@@ -2,18 +2,24 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import AboutMe from "./pages/AboutMe";
 import HomePage from "./pages/HomePage";
 import Nav from "./components/Nav";
-
+import { iconsImg } from "./Data";
 //import global style
 import "./styles/globalStyles.scss";
 import Contectme from "./components/contectme";
+
 function App() {
+  const icons = iconsImg();
   return (
     <Router>
       <div className="App">
         <Nav />
+
         <Routes>
           <Route path="/" element={<HomePage />}></Route>
-          <Route path="/AboutMe" element={<AboutMe />}></Route>
+          <Route
+            path="/AboutMe"
+            element={<AboutMe iconsImg={icons[0]} />}
+          ></Route>
         </Routes>
 
         {/* <Routes>

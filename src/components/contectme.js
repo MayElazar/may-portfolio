@@ -12,6 +12,37 @@ function Contectme() {
       <p className="flex justify-center p-4">
         Don't be a stranger, send a message :)
       </p>
+      <div className="flex justify-center">
+        <form className="flex flex-col p-5" method="POST" data-netlify="true">
+          <label className="flex mb-4" name="name">
+            <span>Name:</span>
+            <input
+              type="text"
+              className="border-2 border-solid border-gray-gray rounded-md ml-10 focus:border-pink-pinkGlow focus:ring-2  focus:outline-none font-light  p-1"
+            />
+          </label>
+          <label className="flex  mb-4" name="email">
+            <span>Email:</span>
+            <input
+              type="email"
+              className="border-2 border-solid border-gray-gray rounded-md ml-10 focus:border-pink-pinkGlow focus:ring-2  focus:outline-none font-light  p-1"
+            />
+          </label>
+          <label className="flex  mb-4" name="message">
+            <span>message:</span>
+            <textarea className="h-32 border-2 border-solid border-gray-gray rounded-md ml-4 focus:border-pink-pinkGlow focus:ring-2  focus:outline-none font-light  p-1"></textarea>
+          </label>
+
+          <div data-netlify-recaptcha="true"></div>
+
+          <button
+            className=" ml-auto p-1 bg-pink-pinkGlow rounded-md text-white-whitey mr-4 w-32 "
+            type="submit"
+          >
+            Send message
+          </button>
+        </form>
+      </div>
       <div className="bg-white-whiteGray">
         <div className="hidden md:flex  p-4 flex-row justify-evenly">
           <div className="flex ">
