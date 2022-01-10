@@ -13,27 +13,40 @@ function Contectme() {
         Don't be a stranger, send a message :)
       </p>
       <div className="flex justify-center">
-        <form className="flex flex-col p-5" method="POST" data-netlify="true">
-          <label className="flex mb-4" name="name">
+        <form
+          className="flex flex-col p-5"
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          onSubmit="submit"
+        >
+          <label className="flex mb-4">
             <span>Name:</span>
             <input
+              name="name"
               type="text"
               className="border-2 border-solid border-gray-gray rounded-md ml-10 focus:border-pink-pinkGlow focus:ring-2  focus:outline-none font-light  p-1"
             />
           </label>
-          <label className="flex  mb-4" name="email">
+          <label className="flex  mb-4">
             <span>Email:</span>
             <input
+              name="email"
               type="email"
               className="border-2 border-solid border-gray-gray rounded-md ml-10 focus:border-pink-pinkGlow focus:ring-2  focus:outline-none font-light  p-1"
             />
           </label>
-          <label className="flex  mb-4" name="message">
+          <label className="flex  mb-4">
             <span>message:</span>
-            <textarea className="h-32 border-2 border-solid border-gray-gray rounded-md ml-4 focus:border-pink-pinkGlow focus:ring-2  focus:outline-none font-light  p-1"></textarea>
+            <textarea
+              name="message"
+              className="h-32 border-2 border-solid border-gray-gray rounded-md ml-4 focus:border-pink-pinkGlow focus:ring-2  focus:outline-none font-light  p-1"
+            ></textarea>
           </label>
 
-          <div data-netlify-recaptcha="true"></div>
+          <div data-netlify-recaptcha="true">
+            <input type="hidden" name="contact" value="contact" />
+          </div>
 
           <button
             className=" ml-auto p-1 bg-pink-pinkGlow rounded-md text-white-whitey mr-4 w-32 "

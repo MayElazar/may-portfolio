@@ -74,7 +74,7 @@ function ProjectData() {
       name: "'Moshe the fish' - game",
       deploy: true,
       img: "https://drive.google.com/uc?export=view&id=14lRz1OnjC7DoaWhSsKf2aS-_vTQ3nPUh",
-      techLang: [react, css, js, xml, cSharp],
+      techLang: [html, css, js, xml, cSharp],
       video: "",
       aboutProj:
         "'Moshe the fish' is a game and a game generator. This project is designed for instructors and learners, It allows them to create identification skills exercises. In this project, you will be able to create your own game content and practice.",
