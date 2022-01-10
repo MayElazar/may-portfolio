@@ -21,7 +21,6 @@ function Contectme() {
           data-netlify-honeypot="bot-field"
           onSubmit="submit"
           netlify
-          action="POST"
           data-netlify-recaptcha="true"
         >
           <label className="flex mb-4">
@@ -47,10 +46,6 @@ function Contectme() {
               className="h-32 border-2 border-solid border-gray-gray rounded-md ml-4 focus:border-pink-pinkGlow focus:ring-2  focus:outline-none font-light  p-1"
             ></textarea>
           </label>
-
-          <div data-netlify-recaptcha="true">
-            <input type="hidden" name="contact" value="contact" />
-          </div>
 
           <button
             className=" ml-auto p-1 bg-pink-pinkGlow rounded-md text-white-whitey mr-4 w-32 "
