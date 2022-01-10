@@ -1,5 +1,5 @@
 import { React, useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { MenuIcon, XIcon } from "@heroicons/react/solid";
 import { motion } from "framer-motion";
 
@@ -15,12 +15,12 @@ function Nav() {
     <div>
       <nav className="flex justify-between p-3">
         <div className="flex">
-          <Link to="/">
+          <NavLink to="/">
             <h1 className="text-3xl sm:text-3xl">May Elazar</h1>
             <p className="text-xs sm:text-xs SpecialFont sm:block">
               frontend developer & designer
             </p>
-          </Link>
+          </NavLink>
         </div>
         <div className="flex  flex-row items-center">
           <div>
@@ -56,7 +56,7 @@ function Nav() {
                     </a>
                   </li>
                   <li className=" text-sm sm:text-base">
-                    <Link to="/AboutMe">About me</Link>
+                    <NavLink to="/AboutMe">About me</NavLink>
                   </li>
                   <li className="text-pink-pinkGlow  text-sm sm:text-base">
                     <a
@@ -86,7 +86,7 @@ function Nav() {
                 whileHover={animation}
                 whileTap={animation}
               >
-                <Link to="/AboutMe">About me</Link>
+                <NavLink to="/AboutMe">About me</NavLink>
               </motion.li>
               <motion.li
                 className="text-pink-pinkGlow  text-sm sm:text-base cursor-pointer"

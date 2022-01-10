@@ -76,6 +76,7 @@ function Header() {
             </a>
           </div>
         </div>
+
         <img
           src={MyImg}
           alt="Maypicture"
