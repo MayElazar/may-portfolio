@@ -23,7 +23,8 @@ function ProjectData() {
       video: "",
       aboutProj:
         "'Building blocks is a project management site. This media is designed for people to manage a team of people or to organize their own projects and assignments.",
-      gitLink: "https://building-blocks-manager.netlify.app",
+      gitLink: "https://github.com/MayElazar/Building-blocks---project-manager",
+      demoLink: "https://building-blocks-manager.netlify.app",
       bg: true,
       id: uuidv4(),
     },
