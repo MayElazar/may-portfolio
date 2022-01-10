@@ -51,4 +51,27 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+
+  <form
+    hidden
+    name="contact"
+    data-netlify="true"
+    data-netlify-honeypot="bot-field"
+    onSubmit="submit"
+    netlify
+    data-netlify-recaptcha="true"
+  >
+    <label>
+      <span>Name:</span>
+      <input name="name" type="text" />
+    </label>
+    <label>
+      <span>Email:</span>
+      <input name="email" type="email" />
+    </label>
+    <label>
+      <span>message:</span>
+      <textarea name="message"></textarea>
+    </label>
+  </form>
 </html>

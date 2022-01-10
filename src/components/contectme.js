@@ -17,18 +17,21 @@ function Contectme() {
           className="flex flex-col p-5"
           name="contact"
           method="POST"
+          action="/contact"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
           onSubmit="submit"
           netlify
           data-netlify-recaptcha="true"
         >
+          <input type="hidden" name="form-name" value="contact" />
           <label className="flex mb-4">
             <span>Name:</span>
             <input
               name="name"
               type="text"
               className="border-2 border-solid border-gray-gray rounded-md ml-10 focus:border-pink-pinkGlow focus:ring-2  focus:outline-none font-light  p-1"
+              required
             />
           </label>
           <label className="flex  mb-4">
@@ -37,6 +40,7 @@ function Contectme() {
               name="email"
               type="email"
               className="border-2 border-solid border-gray-gray rounded-md ml-10 focus:border-pink-pinkGlow focus:ring-2  focus:outline-none font-light  p-1"
+              required
             />
           </label>
           <label className="flex  mb-4">
@@ -44,6 +48,7 @@ function Contectme() {
             <textarea
               name="message"
               className="h-32 border-2 border-solid border-gray-gray rounded-md ml-4 focus:border-pink-pinkGlow focus:ring-2  focus:outline-none font-light  p-1"
+              required
             ></textarea>
           </label>
 
