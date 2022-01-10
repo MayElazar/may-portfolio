@@ -14,13 +14,15 @@ function Contectme() {
       </p>
       <div className="flex justify-center">
         <form
-          action="POST"
           className="flex flex-col p-5"
           name="contact"
           method="POST"
           data-netlify="true"
+          data-netlify-honeypot="bot-field"
           onSubmit="submit"
           netlify
+          action="POST"
+          data-netlify-recaptcha="true"
         >
           <label className="flex mb-4">
             <span>Name:</span>
