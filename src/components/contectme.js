@@ -17,7 +17,7 @@ function Contectme() {
           className="flex flex-col p-5"
           name="contact"
           method="POST"
-          action="/contact"
+          // action="/contact"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
           onSubmit="submit"
