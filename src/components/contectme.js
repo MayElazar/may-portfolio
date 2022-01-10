@@ -19,6 +19,7 @@ function Contectme() {
           method="POST"
           data-netlify="true"
           onSubmit="submit"
+          netlify
         >
           <label className="flex mb-4">
             <span>Name:</span>
