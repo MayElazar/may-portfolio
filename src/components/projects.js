@@ -14,24 +14,33 @@ function Projects(props) {
         <span className="bg-gray-gray w-1/2 h-1"></span>
       </div>
 
-      {data.map((projData) => (
-        <Project
-          name={projData.name}
-          img={projData.img}
-          key={projData.id}
-          gitLink={projData.gitLink}
-          demoLink={projData.demoLink}
-          bg={projData.bg}
-          aboutProj={projData.aboutProj}
-          deploy={projData.deploy}
-          techLang={projData.techLang}
-        />
-      ))}
-      {/*data.map((song) => (
+      {/*<form>
+        <input type="radio" id="code" name="category" value="Code & products" />
+          <label for="code">Code & products</label>
+        <input type="radio" id="design" name="category" value="design" /> {" "}
+        <label for="design">Design</label> 
+      </form>*/}
+      <div>
+        {data.map((projData) => (
+          <Project
+            name={projData.name}
+            img={projData.img}
+            key={projData.id}
+            gitLink={projData.gitLink}
+            demoLink={projData.demoLink}
+            bg={projData.bg}
+            aboutProj={projData.aboutProj}
+            deploy={projData.deploy}
+            techLang={projData.techLang}
+            tag={projData.tag}
+          />
+        ))}
+        {/*data.map((song) => (
         <div className="user" key={song.id}>
           {song.name}
         </div>
       ))*/}
+      </div>
     </div>
   );
 }
