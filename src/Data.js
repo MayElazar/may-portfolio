@@ -36,7 +36,7 @@ function ProjectData() {
     {
       name: "'To Do App' - Time your Tasks",
       deploy: true,
-      img: "https://drive.google.com/uc?export=view&id=12exFeh6VEgJKyv8EX6Zti213CjUnHb-6",
+      img: "https://drive.google.com/uc?export=view&id=1xr4x-61phc5oC8AcGPAidvZlu_M_Y2gZ",
       techLang: [react, css, redux],
       video: "",
       aboutProj:
@@ -50,7 +50,7 @@ function ProjectData() {
     {
       name: "'Music App' - Music player",
       deploy: true,
-      img: "https://drive.google.com/uc?export=view&id=1byRZq-RsAPyUnPSb7bsD5R6g-nps97H3",
+      img: "https://drive.google.com/uc?export=view&id=17hPtlHKQJtUfbuVWouEUjaeS9yN_Ldj5",
       techLang: [react, sass],
       video: "",
       aboutProj:
@@ -64,7 +64,7 @@ function ProjectData() {
     {
       name: "'Builing blocks' - project manager",
       deploy: true,
-      img: "https://drive.google.com/uc?export=view&id=1R2GfTHkuJNfPRKZ7KX7r4a7Ubs6VO0wL",
+      img: "https://drive.google.com/uc?export=view&id=1cf18lxWW13kAo889w3WQSVSfEyacBc81",
       techLang: [react, css, firebase],
       video: "",
       aboutProj:
@@ -78,7 +78,7 @@ function ProjectData() {
     {
       name: "'Tips' - Website",
       deploy: true,
-      img: "https://drive.google.com/uc?export=view&id=1nxJWAmnFmajkgzE-H2uYdzl15h7MDwtU",
+      img: "https://drive.google.com/uc?export=view&id=1pscPii5Hp5fusW50ZD1GoIz_d4EhYOFU",
       techLang: [html, css, js, sql, cSharp],
       video: "",
       aboutProj:
@@ -92,7 +92,7 @@ function ProjectData() {
     {
       name: "'Moshe the fish' - game",
       deploy: true,
-      img: "https://drive.google.com/uc?export=view&id=14lRz1OnjC7DoaWhSsKf2aS-_vTQ3nPUh",
+      img: "https://drive.google.com/uc?export=view&id=146VPc6CBFug3ricODCD9Nx8LhVM2iOGG",
       techLang: [html, css, js, xml, cSharp],
       video: "",
       aboutProj:

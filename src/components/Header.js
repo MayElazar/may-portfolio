@@ -1,6 +1,6 @@
 import React from "react";
 import { DownloadIcon } from "@heroicons/react/solid";
-import MyImg from "../img/MeCharecter.svg";
+import MyImg from "../img/MeCharecter.png";
 import { motion } from "framer-motion";
 //import Projects from "./projects";
 function Header() {
@@ -80,9 +80,9 @@ function Header() {
         <img
           src={MyImg}
           alt="Maypicture"
-          className="hidden md:block h-40 mr-5 "
+          className="hidden md:block h-72 mr-5 "
         />
-        {/*<Projects />*/}
+        {/* <Projects />*/}
       </div>
     </div>
   );

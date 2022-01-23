@@ -10,7 +10,7 @@ module.exports = {
       transparent: "transparent",
       current: "currentColor",
       pink: {
-        pinkGlow: "#F21D56",
+        pinkGlow: "#584ad6",
         brightPink: "#FFF3F0",
       },
       white: {
@@ -19,6 +19,7 @@ module.exports = {
       },
       black: { blackk: "#000000" },
       gray: { gray: "#C9BCBD" },
+      wheat: { wheat: "#d06df661" },
     },
     extend: {},
   },

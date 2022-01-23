@@ -14,8 +14,12 @@ export default function ProductProjects(props) {
           className={props.props.bg ? "bg-white-whiteGray" : "bg-white-whitey"}
         >
           <div className="flex flex-col md:flex-row p-4 mb-2 m-auto  md:w-10/12 items-center">
-            <div className=" md:flex-1 md:flex  sm:flex shadow-xl mr-8 mb-10">
-              <img src={props.props.img} alt="project_picture" />
+            <div className=" md:flex-1 md:flex  sm:flex  mr-8 mb-10 rounded-2xl bg-wheat-wheat">
+              <img
+                src={props.props.img}
+                alt="project_picture"
+                className="m-auto"
+              />
             </div>
             <div className="md:w-3/5 flex flex-col flex-end justify-between w-full">
               <div className="flex flex-col space-y-6">
