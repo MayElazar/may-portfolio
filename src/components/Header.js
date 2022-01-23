@@ -23,7 +23,7 @@ function Header() {
             animate={{ x: [-600, 0], transition: { duration: 3 } }}
             className="text-pink-pinkGlow text-2xl"
           >
-            I'm a frotend developer & designer.
+            I'm a frontend developer & designer.
           </motion.p>
           <p>
             I believe that the web is just getting bigger and it's the primary
